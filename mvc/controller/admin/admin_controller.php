@@ -95,7 +95,7 @@ switch ($admin) {
                 header("Refresh: 1.5; url='?act=admin&admin=categoryList'");
             }
         }
-        include 'category/update.php';
+        include 'view/admin/category/update.php';
         // header("location: ?act=admin&admin=categoryList");
         break;
     case 'productList':
@@ -359,7 +359,7 @@ switch ($admin) {
                 $thongBaoBN = "Thêm thành công";
             }
         }
-        include "product/update.php";
+        include "view/admin/product/update.php";
         break;
         $thongBao = "";
         $thongBaoLoi = "";
